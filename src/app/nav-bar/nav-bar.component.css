@@ -1,0 +1,37 @@
+.title {
+  font-size: 2em;
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 0.7rem;
+}
+
+/* Ta bort lila färg på besökta länkar */
+.title a {
+  color: black !important;
+  text-decoration: none !important; /*ta bort understreck på text */
+}
+
+.navbar {
+  font-size: 1.2em;
+  text-align: center;
+  color: #6c757d;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.nav-item {
+  padding: 10px;
+  text-decoration: none;
+  color: #6c757d;
+}
+
+.nav-item:visited,
+:nav-item:active,
+:nav-item:focus {
+  text-decoration: none;
+  color: #6c757d;
+}
+
+/*när användaren hovrar på nav-item */
+.nav-item:hover {
+  text-decoration: underline;
+}
